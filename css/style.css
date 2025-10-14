@@ -1,4 +1,11 @@
 /* ===== General Styles ===== */
+:root {
+	--text-blue: #0a507a;
+	--text-blue-hover: #157ab3;
+	--text-default: #2b2a29;
+	--text-white: #ffffff;
+}
+
 .container {
 	max-width: 1750px;
 	margin: 0 auto;
@@ -13,6 +20,8 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 50px 0 33px;
+	font-size: 20px;
+	font-weight: 700;
 }
 
 .header__menu {
@@ -21,6 +30,7 @@
 .menu__list {
 	display: flex;
 	gap: 40px;
+	color: var(--text-blue);
 }
 
 .menu__item {
@@ -30,6 +40,13 @@
 }
 
 .header__phone {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	background-color: var(--text-blue);
+	color: var(--text-white);
 }
 
 .title-img {
