@@ -5,10 +5,18 @@
 	--text-white: #ffffff;
 }
 
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	clip: rect(0, 0, 0, 0);
+}
+
 .container {
 	max-width: 1750px;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 0 10px;
 }
 
 .section {
