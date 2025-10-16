@@ -1,4 +1,4 @@
-/** ===== General Styles ===== */
+/* * ===== General Styles ===== * */
 :root {
 	--text-black: #2b2a29;
 	--text-blue: #0a507a;
@@ -37,7 +37,17 @@
 	margin-bottom: 20px;
 }
 
-/* * ===== Header =====*/
+.buttons-book {
+	font-size: 32px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-radius: 30px;
+	padding: 10px 20px;
+	background: var(--text-black);
+	color: var(--text-white);
+}
+
+/* * ===== Header ===== * */
 
 .header {
 	background-image: url('../images/bg.png');
@@ -159,7 +169,7 @@
 .header__news-box {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 100px;
+	margin-bottom: 103px;
 	padding: 50px 20px;
 	backdrop-filter: blur(4px);
 	border-radius: 10px;
@@ -213,3 +223,16 @@
 	backdrop-filter: blur(4px);
 	background: rgba(255, 255, 255, 0);
 }
+
+/* @media (max-width: 1920px) {
+	.header {
+		padding-bottom: 50px;
+	}
+
+	.header__top {
+		padding-top: 30px;
+	}
+	.header__news-box {
+		margin-bottom: 50px;
+	}
+} */
