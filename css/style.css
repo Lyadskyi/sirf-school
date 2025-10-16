@@ -1,4 +1,4 @@
-/* * ===== General Styles ===== * */
+/* * ===== GENERAL Styles ===== * */
 :root {
 	--text-black: #2b2a29;
 	--text-blue: #0a507a;
@@ -48,7 +48,6 @@
 }
 
 /* * ===== Header ===== * */
-
 .header {
 	background-image: url('../images/bg.png');
 	background-repeat: no-repeat;
@@ -67,17 +66,11 @@
 	padding: 50px 0 90px;
 }
 
-/* .header__menu {
-} */
-
 .menu__list {
 	display: flex;
 	gap: 40px;
 	color: var(--text-blue);
 }
-
-/* .menu__item {
-} */
 
 .menu__link:hover {
 	transition: background-color 0.3s ease-in-out;
@@ -155,9 +148,6 @@
 	gap: 20px;
 }
 
-/* .header__social-item {
-} */
-
 .header__social-link {
 	display: flex;
 }
@@ -197,9 +187,6 @@
 	margin-bottom: 30px;
 }
 
-/* .header__news-img {
-} */
-
 .header__buttons {
 	display: flex;
 	gap: 20px;
@@ -238,7 +225,6 @@
 } */
 
 /* * ===== Section ABOUT ===== * */
-
 .text {
 	max-width: 1073px;
 	font-size: 64px;
@@ -246,9 +232,6 @@
 	text-transform: uppercase;
 	padding-top: 150px;
 }
-
-/* .section-about {
-} */
 
 .section-about__inner {
 	display: flex;
