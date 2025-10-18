@@ -25,15 +25,15 @@
 }
 
 .section__title {
-	font-weight: 800;
 	font-size: 64px;
+	font-weight: 800;
 	text-transform: uppercase;
 	margin-bottom: 100px;
 }
 
 .section__subtitle {
-	font-weight: 700;
 	font-size: 20px;
+	font-weight: 700;
 	margin-bottom: 20px;
 }
 
@@ -338,3 +338,45 @@
 }
 
 /* * ===== Section REVIEWS ===== * */
+
+.section-reviews__top {
+	margin-left: calc(50% + 10px);
+}
+
+.section-reviews__items {
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr 1fr;
+	gap: 20px;
+}
+
+.section-review__item:nth-child(even) {
+	padding-top: 94px;
+}
+
+.reviews__img {
+	margin-bottom: 15px;
+	max-width: 100%;
+}
+
+.blockquote {
+	margin: 0;
+}
+
+.blockquote__text {
+	margin-bottom: 15px;
+}
+
+.blockquote__cite {
+	display: block;
+	text-align: right;
+	margin-bottom: 5px;
+}
+
+.blockquote__cite::before {
+	content: '/';
+}
+
+.blockquote__time {
+	display: block;
+	text-align: right;
+}
