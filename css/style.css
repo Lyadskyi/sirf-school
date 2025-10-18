@@ -1,4 +1,5 @@
-/* * ===== GENERAL Styles ===== * */
+/* ===== GENERAL Styles ===== */
+
 :root {
 	--text-black: #2b2a29;
 	--text-blue: #0a507a;
@@ -47,7 +48,8 @@
 	color: var(--text-white);
 }
 
-/* * ===== Header ===== * */
+/* ===== Header ===== */
+
 .header {
 	background-image: url('../images/bg.png');
 	background-repeat: no-repeat;
@@ -216,7 +218,8 @@
 	}
 } */
 
-/* * ===== Section ABOUT ===== * */
+/* ===== Section ABOUT ===== */
+
 .text {
 	max-width: 1073px;
 	font-size: 64px;
@@ -279,7 +282,8 @@
 	background-color: rgba(255, 255, 255, 0.3);
 	color: var(--text-white);
 }
-/* * ===== Section ACTIVITIES ===== * */
+
+/* ===== Section ACTIVITIES ===== */
 
 .section-activities {
 	padding-bottom: 100px;
@@ -337,7 +341,7 @@
 	padding-bottom: 75px;
 }
 
-/* * ===== Section REVIEWS ===== * */
+/* ===== Section REVIEWS ===== */
 
 .section-reviews__top {
 	margin-left: calc(50% + 10px);
@@ -380,3 +384,6 @@
 	display: block;
 	text-align: right;
 }
+
+/* ===== Footer ===== */
+
