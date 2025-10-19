@@ -42,6 +42,7 @@
 	font-size: 32px;
 	font-weight: 800;
 	text-transform: uppercase;
+	border: 1px solid transparent;
 	border-radius: 30px;
 	padding: 10px 20px;
 	background-color: var(--text-black);
@@ -76,7 +77,7 @@
 
 .menu__link:hover {
 	transition: background-color 0.3s ease-in-out;
-	color: var(--text-blue-hover);
+	color: var(--text-black);
 }
 
 .header__phone {
@@ -111,6 +112,11 @@
 	color: var(--text-white);
 }
 
+.title-text:hover {
+	transition: background-color 0.3s ease-in-out;
+	background-color: var(--text-blue);
+}
+
 .header__content {
 	display: flex;
 	justify-content: space-between;
@@ -139,6 +145,13 @@
 	border: 1px solid var(--text-blue);
 	background-color: rgba(255, 255, 255, 0.2);
 	color: var(--text-blue);
+}
+
+.header__info-item:hover {
+	transition: all 0.3s ease-in-out;
+	backdrop-filter: blur(4px);
+	background-color: var(--text-blue);
+	color: var(--text-white);
 }
 
 .header__social {
@@ -189,9 +202,21 @@
 	margin-bottom: 30px;
 }
 
+.header__news-link:hover {
+	transition: color 0.3s ease-in-out;
+	color: var(--text-blue);
+}
+
 .header__buttons {
 	display: flex;
 	gap: 20px;
+}
+
+.buttons-book:hover {
+	transition: all 0.3s ease-in-out;
+	border: 1px solid var(--text-black);
+	background-color: var(--text-white);
+	color: var(--text-black);
 }
 
 .header__buttons-activities {
@@ -200,9 +225,16 @@
 	font-weight: 800;
 	font-size: 32px;
 	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
 	backdrop-filter: blur(4px);
 	border: 1px solid var(--text-black);
 	background-color: rgba(255, 255, 255, 0);
+}
+
+.header__buttons-activities:hover {
+	backdrop-filter: blur(4px);
+	background-color: var(--text-blue);
+	color: var(--text-white);
 }
 
 /* @media (max-width: 1920px) {
@@ -283,6 +315,13 @@
 	color: var(--text-white);
 }
 
+.section-about__link:hover {
+	transition: all 0.3s ease-in-out;
+	backdrop-filter: blur(4px);
+	background-color: var(--text-white);
+	color: var(--text-black);
+}
+
 /* ===== Section ACTIVITIES ===== */
 
 .section-activities {
@@ -334,6 +373,12 @@
 	font-weight: 700;
 	max-width: 118px;
 	text-align: center;
+}
+
+.activities__item:hover {
+	transition: all 0.3s ease-in-out;
+	background-color: var(--text-blue);
+	color: var(--text-white);
 }
 
 .site-image {
@@ -411,6 +456,11 @@
 	text-transform: uppercase;
 }
 
+.footer__logo:hover {
+	transition: transform 0.6s ease-in-out;
+	transform: scale(1.1);
+}
+
 .footer__info-list {
 	display: flex;
 	gap: 68px;
@@ -437,10 +487,10 @@
 }
 
 .footer__bottom {
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-gap: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 50px;
 }
 
 .footer__nav {
