@@ -145,7 +145,7 @@
 	margin-top: auto;
 }
 
-.header__social-list {
+.social-list {
 	display: inline-flex;
 	gap: 20px;
 }
@@ -387,3 +387,31 @@
 
 /* ===== Footer ===== */
 
+.footer {
+}
+.footer__top {
+}
+.footer__title {
+}
+.footer__logo {
+}
+.footer__info {
+}
+.footer__info-list {
+}
+.footer__info-item {
+}
+.footer__bottom {
+}
+.social-list {
+}
+.social-item {
+}
+.social-link {
+}
+.footer__nav {
+}
+.footer__nav-item {
+}
+.footer__nav-link {
+}
